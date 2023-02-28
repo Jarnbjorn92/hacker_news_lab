@@ -1,6 +1,10 @@
 import React from "react";
 
 const StoryListItem = ({story}) => {
+
+    if(!story){
+        return null
+    }
     
     return (
         <li>
